@@ -61,18 +61,7 @@ def grade_lab_iskay_ex1b(objective_func: dict, graph:nx.Graph) -> bool:
     return print_results(True)
 
 
-def grade_lab_iskay_ex1c(optimizer):
-    """
-    Grading function for lab_iskay_ex1c.
-    Returns a dictionary with the grading results.
-    """
-    if optimizer.__str__()=='QiskitFunction(kipu-quantum/iskay-quantum-optimizer)':
-        return print_results(True)
-    else:
-        return print_results(False)
-
-
-def grade_lab_iskay_ex1d(arguments: dict) -> bool:
+def grade_lab_iskay_ex1c(arguments: dict) -> bool:
     """
     Returns True if `arguments` correctly prepares the optimizer inputs:
       - Contains exactly the keys: 'problem', 'problem_type', 'instance', 'backend_name', 'options'
@@ -140,7 +129,7 @@ def grade_lab_iskay_ex1d(arguments: dict) -> bool:
     return print_results(True)
 
 
-def grade_lab_iskay_ex1e(result: dict) -> bool:
+def grade_lab_iskay_ex1d(result: dict) -> bool:
     """
     """
     # Must be a dict
@@ -166,7 +155,7 @@ def grade_lab_iskay_ex1e(result: dict) -> bool:
         return print_results(True)
     
 
-def grade_lab_iskay_ex1f(cut: int) -> bool:
+def grade_lab_iskay_ex1e(cut: int) -> bool:
     """
     """
     if not isinstance(cut, int):
