@@ -10,7 +10,7 @@ dependencies:
   - matplotlib=3.10.3
   - pandas
   - sympy=1.14.0
-  - networkx=3.5
+  - networkx=3.2.1  # Versão ajustada conforme detectado nas instalações existentes
   - seaborn=0.13.2
   - pillow=11.3.0
   - pyarrow=18.1.0
@@ -23,9 +23,10 @@ dependencies:
     - "qiskit==2.1.1"
     - "qiskit-ibm-runtime==0.40.0"
     - "qiskit-aer==0.17.1" 
-    - "qiskit-ibm-catalog==0.8.0"
-    - "qiskit_serverless==0.25.1"
+    # Instalar primeiro o qc-grader que vai resolver as dependências
     - "qc-grader[jupyter,qiskit] @ git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git"
+    # Depois instalar o qiskit-ibm-catalog com versão compatível
+    - "qiskit-ibm-catalog>=0.8.0"
     - "pylatexenc"
     - "pydot==4.0.1"
     - "pyscf==2.9.0"
