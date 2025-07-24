@@ -1,7 +1,5 @@
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
-    },
-    "python.defaultInterpreterPath": "/home/test/Downloads/IBM/qgss25/qgss-2025-team07/.venv/bin/python",
-    "autopep8.interpreter": ["/home/test/Downloads/IBM/qgss25/qgss-2025-team07/.venv/bin/python"]
+    }
 }
