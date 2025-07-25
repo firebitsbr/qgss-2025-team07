@@ -1,5 +1,5 @@
 # qgss-2025
-Qiskit Global Summer School: The Past, Present and Future of Quantum Computing
+Qiskit Global Summer School: The Past, Present and Future of Quantum Computing by Mauro Risonho de Paula Assumpção aka @firebitsbr
 
 # Launch on qBraid
 
